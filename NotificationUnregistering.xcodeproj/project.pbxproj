@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5D80C3FC1FFEA0F400F87CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D80C3FB1FFEA0F400F87CDA /* AppDelegate.swift */; };
-		5D80C3FE1FFEA0F400F87CDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D80C3FD1FFEA0F400F87CDA /* ViewController.swift */; };
 		5D80C4031FFEA0F400F87CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D80C4021FFEA0F400F87CDA /* Assets.xcassets */; };
 		5D80C4061FFEA0F400F87CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D80C4041FFEA0F400F87CDA /* LaunchScreen.storyboard */; };
+		5D80C40E1FFEB30900F87CDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D80C40D1FFEB30900F87CDA /* ViewController.swift */; };
+		5D80C4101FFEB68800F87CDA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D80C40F1FFEB68800F87CDA /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D80C3F81FFEA0F400F87CDA /* NotificationUnregistering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationUnregistering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D80C3FB1FFEA0F400F87CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D80C3FD1FFEA0F400F87CDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D80C4021FFEA0F400F87CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D80C4051FFEA0F400F87CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D80C4071FFEA0F400F87CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D80C40D1FFEB30900F87CDA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D80C40F1FFEB68800F87CDA /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				5D80C3FB1FFEA0F400F87CDA /* AppDelegate.swift */,
-				5D80C3FD1FFEA0F400F87CDA /* ViewController.swift */,
+				5D80C40F1FFEB68800F87CDA /* Notifications.swift */,
+				5D80C40D1FFEB30900F87CDA /* ViewController.swift */,
 				5D80C4021FFEA0F400F87CDA /* Assets.xcassets */,
 				5D80C4041FFEA0F400F87CDA /* LaunchScreen.storyboard */,
 				5D80C4071FFEA0F400F87CDA /* Info.plist */,
@@ -132,7 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D80C3FE1FFEA0F400F87CDA /* ViewController.swift in Sources */,
+				5D80C4101FFEB68800F87CDA /* Notifications.swift in Sources */,
+				5D80C40E1FFEB30900F87CDA /* ViewController.swift in Sources */,
 				5D80C3FC1FFEA0F400F87CDA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
