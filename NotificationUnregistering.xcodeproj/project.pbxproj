@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D66341D2002AC8C00364E93 /* NotificationUnregisteringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66341C2002AC8C00364E93 /* NotificationUnregisteringTests.swift */; };
 		5D80C3FC1FFEA0F400F87CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D80C3FB1FFEA0F400F87CDA /* AppDelegate.swift */; };
 		5D80C4031FFEA0F400F87CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D80C4021FFEA0F400F87CDA /* Assets.xcassets */; };
 		5D80C4061FFEA0F400F87CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D80C4041FFEA0F400F87CDA /* LaunchScreen.storyboard */; };
@@ -14,7 +15,20 @@
 		5D80C4101FFEB68800F87CDA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D80C40F1FFEB68800F87CDA /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5D66341F2002AC8C00364E93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D80C3F01FFEA0F400F87CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D80C3F71FFEA0F400F87CDA;
+			remoteInfo = NotificationUnregistering;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5D66341A2002AC8B00364E93 /* NotificationUnregisteringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationUnregisteringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D66341C2002AC8C00364E93 /* NotificationUnregisteringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUnregisteringTests.swift; sourceTree = "<group>"; };
+		5D66341E2002AC8C00364E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D80C3F81FFEA0F400F87CDA /* NotificationUnregistering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationUnregistering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D80C3FB1FFEA0F400F87CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D80C4021FFEA0F400F87CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,6 +39,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5D6634172002AC8B00364E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D80C3F51FFEA0F400F87CDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +56,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D66341B2002AC8B00364E93 /* NotificationUnregisteringTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D66341C2002AC8C00364E93 /* NotificationUnregisteringTests.swift */,
+				5D66341E2002AC8C00364E93 /* Info.plist */,
+			);
+			path = NotificationUnregisteringTests;
+			sourceTree = "<group>";
+		};
 		5D80C3EF1FFEA0F400F87CDA = {
 			isa = PBXGroup;
 			children = (
 				5D80C3FA1FFEA0F400F87CDA /* NotificationUnregistering */,
+				5D66341B2002AC8B00364E93 /* NotificationUnregisteringTests */,
 				5D80C3F91FFEA0F400F87CDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				5D80C3F81FFEA0F400F87CDA /* NotificationUnregistering.app */,
+				5D66341A2002AC8B00364E93 /* NotificationUnregisteringTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +99,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5D6634192002AC8B00364E93 /* NotificationUnregisteringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D6634232002AC8C00364E93 /* Build configuration list for PBXNativeTarget "NotificationUnregisteringTests" */;
+			buildPhases = (
+				5D6634162002AC8B00364E93 /* Sources */,
+				5D6634172002AC8B00364E93 /* Frameworks */,
+				5D6634182002AC8B00364E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D6634202002AC8C00364E93 /* PBXTargetDependency */,
+			);
+			name = NotificationUnregisteringTests;
+			productName = NotificationUnregisteringTests;
+			productReference = 5D66341A2002AC8B00364E93 /* NotificationUnregisteringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5D80C3F71FFEA0F400F87CDA /* NotificationUnregistering */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D80C40A1FFEA0F400F87CDA /* Build configuration list for PBXNativeTarget "NotificationUnregistering" */;
@@ -94,6 +144,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Ole Begemann";
 				TargetAttributes = {
+					5D6634192002AC8B00364E93 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D80C3F71FFEA0F400F87CDA;
+					};
 					5D80C3F71FFEA0F400F87CDA = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -114,11 +169,19 @@
 			projectRoot = "";
 			targets = (
 				5D80C3F71FFEA0F400F87CDA /* NotificationUnregistering */,
+				5D6634192002AC8B00364E93 /* NotificationUnregisteringTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5D6634182002AC8B00364E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D80C3F61FFEA0F400F87CDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,6 +194,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5D6634162002AC8B00364E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D66341D2002AC8C00364E93 /* NotificationUnregisteringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D80C3F41FFEA0F400F87CDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +213,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D6634202002AC8C00364E93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D80C3F71FFEA0F400F87CDA /* NotificationUnregistering */;
+			targetProxy = 5D66341F2002AC8C00364E93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D80C4041FFEA0F400F87CDA /* LaunchScreen.storyboard */ = {
@@ -155,6 +234,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5D6634212002AC8C00364E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NotificationUnregisteringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olebegemann.NotificationUnregisteringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationUnregistering.app/NotificationUnregistering";
+			};
+			name = Debug;
+		};
+		5D6634222002AC8C00364E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NotificationUnregisteringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olebegemann.NotificationUnregisteringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationUnregistering.app/NotificationUnregistering";
+			};
+			name = Release;
+		};
 		5D80C4081FFEA0F400F87CDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -293,6 +402,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5D6634232002AC8C00364E93 /* Build configuration list for PBXNativeTarget "NotificationUnregisteringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6634212002AC8C00364E93 /* Debug */,
+				5D6634222002AC8C00364E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5D80C3F31FFEA0F400F87CDA /* Build configuration list for PBXProject "NotificationUnregistering" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
